@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+body {
+    font-family: "Amatic SC", cursive;
+    text-align: center;
+    background-image: url("img/background.jpg");
+}
+* {
+    text-align: center;
+}
+h1 {
+    font-size: 45px;
+    text-shadow: -1px 0 #62a5db, 0 1px #62a5db, 1px 0 #62a5db, 0 -1px #62a5db;
+    color: rgb(243, 245, 252);
+}
+legend, p, h2 {
+    font-size: 30px;
+}
+button {
+    background-color: white;
+    color: rgb(245, 132, 176);
+    border-radius: 7px;
+    padding: 5px 10px;
+    border: 1px dashed rgb(245, 132, 176);
+}
+fieldset:hover {
+    background-color: rgb(185, 228, 248);
+}
+fieldset {
+    border-color:rgb(138, 210, 252);
+    border-radius: 7px;
+}
+button:hover {
+    background-color: rgb(253, 244, 248);
+}
+button:active {
+    background-color: rgb(253, 244, 248);
+    box-shadow: 0 3px #e677ca;
+    transform: translateY(2px);
+    border: none;
+}
+hr {
+    border-top: 2px dashed rgb(252, 250, 178);
+    border-bottom: none;
+}
+p {
+    color: rgb(252, 250, 178);
+    font-weight: bold;
+    text-shadow: -1px 0 rgb(2, 2, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(2, 0, 0), 0 -1px rgb(3, 0, 0);
+    letter-spacing: 2.5px;
+}
+#table, td, tr {
+    border: 2px dashed rgb(252, 250, 178);
+    font-size: 50px;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+}
+td.main {
+    background-color: rgba(250, 249, 226, 0.267);
+}
